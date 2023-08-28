@@ -103,6 +103,7 @@ header nav a:hover{
     font-weight: bolder;
     color: #1F2937;
     align-self: center;
+    margin-top: 25px;
 }
 
 .info-container{
@@ -133,7 +134,7 @@ header nav a:hover{
 
 .quote{
     background-color: #E5E7EB;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
 }
@@ -155,4 +156,31 @@ header nav a:hover{
 
 .quote-source{
     align-self: flex-end;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-to-action-container{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+
+.call-to-action-text{
+    color: #E5E7EB;
+}
+
+.call-to-action-button{
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    border:1px solid #E5E7EB;
+    padding: 2px 25px;
+    border-radius: 5px;
 }
