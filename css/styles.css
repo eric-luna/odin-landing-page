@@ -91,7 +91,68 @@ header nav a:hover{
     color: #E5E7EB;
 }
 
-.info-row img{
-    max-width: 100%;
-    height: auto;
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-self: center;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 100px 100px;
+}
+
+.info-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img{
+    border:1px solid #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-source{
+    align-self: flex-end;
 }
