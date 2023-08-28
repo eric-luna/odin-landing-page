@@ -118,25 +118,30 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px 15px;
 }
 
 .info-img{
     border:1px solid #3882F6;
-    border-radius: 5px;
-    height: 100px;
-    width: 100px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-text{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .quote{
     background-color: #E5E7EB;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
+    padding: 60px 0px;
 }
 
 .quote-container{
@@ -162,7 +167,8 @@ header nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: auto;
+    padding: 70px 0px;
 }
 
 .call-to-action-container{
@@ -170,10 +176,12 @@ header nav a:hover{
     display: flex;
     flex-direction: row;
     padding: 30px 50px;
+    justify-content: space-between;
 }
 
 .call-to-action-text{
     color: #E5E7EB;
+    width: 65%;
 }
 
 .call-to-action-button{
@@ -183,4 +191,12 @@ header nav a:hover{
     border:1px solid #E5E7EB;
     padding: 2px 25px;
     border-radius: 5px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 25px 25px;
+    color: #E5E7EB;
 }
